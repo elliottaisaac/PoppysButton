@@ -454,7 +454,11 @@ h1 {
 }
 
 
-
+@media (max-width:640px){
+      #message-box{
+        text-align: left;
+      }
+  }
 
 
 
