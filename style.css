@@ -354,15 +354,15 @@ h1, h2 {
 h1 {
   font-size: 6.2rem;
   animation: pulsate 1.5s infinite alternate;  
-  border: 0.2rem solid #fff;
+  /* border: 0.2rem solid #fff; */
   border-radius: 2rem;
   padding: 0.4em;
-  box-shadow: 0 0 .2rem #fff,
+  /* box-shadow: 0 0 .2rem #fff,
             0 0 .2rem #fff,
             0 0 2rem #bc13fe,
             0 0 0.8rem #bc13fe,
             0 0 2.8rem #bc13fe,
-            inset 0 0 1.3rem #bc13fe; 
+            inset 0 0 1.3rem #bc13fe;  */
 }
 
 @keyframes pulsate {
@@ -462,6 +462,10 @@ h1 {
         padding: 8px;
         font-weight: 400;
         font-size: 100%;
+      }
+      #message-box a{
+        color: #222222;
+        font-weight: 600;
       }
   }
 
