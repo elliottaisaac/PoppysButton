@@ -46,7 +46,7 @@ let messages = [
 
     'Get ready for some magic in 3... 2... 1...<div id="hearts-alpaca" class="hearts" style="padding:60px;"><div class="heart"></div><div class="heart"></div><div class="heart"></div><div class="heart"></div></div>',
 
-    '<span style="font-size:300%">&#128065; &#x1F474;&#x1F3FC; &infin; &#x1F334; &#x1FAF5; &#x1F590;</span>',
+    '<span style="font-size:200%">&#128065; &#x1F474;&#x1F3FC; &infin; &#x1F334; &#x1FAF5; &#x1F590;</span>',
 
     "How many people know how it feels to listen to a song someone wrote for them, specifically? Like, a really heartfelt song. Like the ones you've written for me. Probably not many... I'm lucky then because the only way I can think of to describe that feeling is that I imagine it's the closest an adult can get to being sung a lullabye.",
 
