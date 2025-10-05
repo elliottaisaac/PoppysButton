@@ -5,7 +5,7 @@
   /* --color:  #7851A9; */
   --color: #4169e1;
   --background: #fefefe;
-  --focus: #ff0078;
+  --focus: #99edc3;
   --grid-size: 50px;
   --grid-width: 0.9px;
 }
@@ -457,7 +457,7 @@ h1 {
 
 @media (max-width:640px){
       #message-box{
-        min-width: 100px;
+        min-width: 150px;
         max-width: 250px;
 
       }
