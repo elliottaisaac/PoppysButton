@@ -65,6 +65,8 @@ let messages = [
     "I can't lose you.",
 
     "I'm not sure you were kidding &#129300;<br><br><img src='husband.jpg' style='width:250px'>",
+
+    "I want to kiss you so badly"
 ];
 
 
