@@ -398,7 +398,9 @@ h1 {
 
 
 
-
+#colors{
+  display: flex;
+}
 #colors div{
   border-radius: 50%;
   width: 48px;
@@ -448,7 +450,7 @@ h1 {
 #message-box sup{
    font-size:80%;
    font-weight: normal;
-   color: #90a3b0;
+   color: #837e9c;
 }
 
 

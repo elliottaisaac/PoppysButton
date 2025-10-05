@@ -12,7 +12,7 @@ let messages = [
 
     "You're so sexy. Like goddamn, baby. Sometimes I almost forget how hot you are because I'm so in love.<br><br>But then I remember like...oof.",
 
-    "I've never been able to picture myself as a parent. Like, couldn't even conceptualize what that would be like or feel like. But with you, I don't know... I think I can imagine it.",
+    "I've never been able to picture myself as a parent. Like, couldn't even conceptualize what that would be like or feel like. But with you, I don't know... I think I can imagine it. Maybe.",
 
     `<button class="btn btn-pulse"><a href='https://www.youtube.com/watch?v=hq0rZ3IiyWw' target="_blank" style="font-size:500%";>&#9835; </a></button><br><sup>(3)</sup>`,
 
@@ -32,9 +32,9 @@ let messages = [
 
     "Can I call you Poppsi Max?",
 
-    "When's you're birthday?<br>Mine is June 22nd.",
+    "When is your birthday?<br><br>Mine is June 22nd.",
 
-    "Do you have a favorite number?<br>Mine is 22.",
+    "What year were you born? 1994?",
 
     "Did I get yourr colors right?<br><div id='colors'><div></div><div></div><div></div><div></div><div></div><div></div></div>",
 
@@ -54,7 +54,7 @@ let messages = [
 
     "I chose this font because its name is <a href='https://fonts.google.com/specimen/Poppins?preview.text=I%20love%20you' target='_blank'>Poppins</a>.",
     
-    "Mmmmwah!",
+    "Mmmwah!",
 
     "Why me?<br><br>Why rescue me where others drowned?",
 
@@ -71,13 +71,12 @@ let messages = [
 let names = [
     "baby",
     "baby!",
-    "honey",
+    "babe",
+    "sweetheart",
     "Poppy",
     "dear",
     "beautiful",
     "angel",
-    "gorgeous",
     "darling",
     "love",
-    "babe",
 ]
