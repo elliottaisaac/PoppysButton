@@ -76,7 +76,6 @@ let names = [
     "Poppy",
     "dear",
     "beautiful",
-    "angel",
     "darling",
     "love",
 ]
