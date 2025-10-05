@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="pheart.png">
+    <title>Secret Messages for Someone Special</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sacramento:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="messages.js"></script>
+  </head>
+  <body>
+    <button class='trigger-button' onClick='document.getElementById("dialog").showModal();'>
+	<span id="btn-txt">Press me</span>
+</button>
+        <dialog id="dialog">
+                <form method="dialog">
+                    <button class='close-button'>
+                        Close
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class='icon'>
+                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-1.72 6.97a.75.75 0 1 0-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 1 0 1.06 1.06L12 13.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L13.06 12l1.72-1.72a.75.75 0 1 0-1.06-1.06L12 10.94l-1.72-1.72Z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </form>
+                <div class='dialog-wrapper'>
+                    <p id="message-box" class=".poppins-regular"></p>
+                </div>
+            </div>
+        </dialog>
+  </body>
+  <script>
+    let first = true;
+    document.querySelector('button').addEventListener("click", () => {
+        let box = document.getElementById('message-box');
+        let msg;
+        if(first == true){
+            msg = messages[0];
+            messages.shift();
+            first = false;
+            const timeout = setTimeout(PressMeAgain, 1000);
+        }
+        else{
+            if(messages.length < 1) location.reload();
+            else{
+                let rand = Math.floor(Math.random() * messages.length);
+                const timeout2 = setTimeout(PressMeBlank, 1000);
+                msg = messages[rand];
+                messages.splice(rand, 1)
+                console.log(rand);
+                console.log(messages);
+            }
+        }
+        box.innerHTML = msg;
+    });
+
+    function CheckMsg(n){
+        document.getElementById('message-box').innerHTML = messages[n];
+    }
+
+    function PressMeAgain(){
+        document.getElementById('btn-txt').innerHTML += ", again";
+    }
+
+    function PressMeBlank(){
+        let rand = Math.floor(Math.random() * names.length);
+        document.getElementById('btn-txt').innerHTML = `Press me, ${names[rand]}`;
+    }
+  </script>
+</html>
