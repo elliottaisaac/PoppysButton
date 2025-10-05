@@ -428,6 +428,7 @@ h1 {
 
 video{
   width: 100%;
+  border-radius: 12px;
 }
 
 #message-box{
