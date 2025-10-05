@@ -426,6 +426,10 @@ h1 {
   background: #4169e1;
 }
 
+video{
+  width: 100%;
+}
+
 #message-box{
     min-width: 300px;
     min-height: 200px;

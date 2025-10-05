@@ -44,7 +44,7 @@ let messages = [
 
     "I think I'd fit in just fine in the UK. I'd be like one of those people with a cool British accent, except the reverse. You know?",
 
-    'Get ready for some magic in 3... 2... 1...<div id="hearts-alpaca" class="hearts" style="padding:60px;"><div class="heart"></div><div class="heart"></div><div class="heart"></div><div class="heart"></div></div>',
+    'Get ready for some magic in 3... 2... 1...<div id="hearts" class="hearts" style="padding:60px;"><div class="heart"></div><div class="heart"></div><div class="heart"></div><div class="heart"></div></div>',
 
     '<span style="font-size:200%">&#128065; &#x1F474;&#x1F3FC; &infin; &#x1F334; &#x1FAF5; &#x1F590;</span>',
 
@@ -66,7 +66,9 @@ let messages = [
 
     "I'm not sure you were kidding &#129300;<br><br><img src='husband.jpg' style='width:250px'>",
 
-    "I want to kiss you so badly"
+    "I want to kiss you so badly",
+
+    '<video autoplay><source src="hug.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video>'
 ];
 
 
