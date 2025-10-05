@@ -77,6 +77,7 @@ let names = [
     "baby!",
     "babe",
     "sweetheart",
+    "honey",
     "Poppy",
     "dear",
     "beautiful",
