@@ -60,7 +60,7 @@ let messages = [
 
     '<div class="neonCont"><h1 class="neonText">Neon letters</h1></div>',
 
-    "Sometimes your music make me weepy. Like everything I've held in just starts leaking out.",
+    "Sometimes your music makes me weepy. Like everything I've held in just starts leaking out.",
 
     "I can't lose you.",
 
