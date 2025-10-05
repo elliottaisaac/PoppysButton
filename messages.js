@@ -36,7 +36,7 @@ let messages = [
 
     "What year were you born? 1994?",
 
-    "Did I get yourr colors right?<br><div id='colors'><div></div><div></div><div></div><div></div><div></div><div></div></div>",
+    "Did I get your colors right?<br><div id='colors'><div></div><div></div><div></div><div></div><div></div><div></div></div>",
 
     "This is too funny - when we were on the phone that one time, I had the idea that next time you tell me that you love me I'll surprise you by responding in Icelandic. The flaw in my plan was that I had no clue how to pronouce <i>ég elska þig líka</i> and I couldn't play any audio of how it's supposed to sound because you'd hear it. So I was Googling everything I could to try and figure it out, silently. Then you suddenly said 'I love you', and so I took my best shot at it. I smiled when you understood me.<br><br><img src='je elska theygh.jpg' style='width:250px'>",
 
