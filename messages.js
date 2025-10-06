@@ -74,7 +74,9 @@ let messages = [
 
     "I don't think I'll ever rest easy until I feel your arms around me.",
 
-    "I wish we talked more."
+    "I wish we talked more.",
+
+    "I should havw been there for you all these years. I'm sorry that I wasn't."
 ];
 
 
