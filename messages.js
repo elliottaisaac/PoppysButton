@@ -53,8 +53,6 @@ let messages = [
     "I'd like to write you a song one day. But you'll have to sing it to yourself. Sorry.",
 
     "I chose this font because its name is <a href='https://fonts.google.com/specimen/Poppins?preview.text=I%20love%20you' target='_blank'>Poppins</a>.",
-    
-    "Mmmwah!",
 
     "Why me?<br><br>Why rescue me where others drowned?",
 
@@ -90,7 +88,6 @@ let names = [
     "dear",
     "beautiful",
     "darling",
-    "Poppsi Max",
     "angel",
     "love"
 ]
