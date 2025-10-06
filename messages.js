@@ -72,7 +72,7 @@ let messages = [
 
     "I don't think I'll ever rest easy until I feel your arms around me.",
 
-    "I should havw been there for you all these years. I'm sorry that I wasn't."
+    "I should have been there for you all these years. I'm sorry that I wasn't."
 ];
 
 
