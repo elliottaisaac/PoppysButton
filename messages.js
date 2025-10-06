@@ -68,11 +68,11 @@ let messages = [
 
     '<video autoplay><source src="hug.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video>',
 
-    "Sometimes I wonder if there's parts of yorself that you're afraid to show me. You shouldn't be though. Think of your homeland. Ice and flame. Not ice despite flame or flame despite ice. There's no midnight sun without dark winters. These things don't detract from each other. They need each other. Like us. You know? Maybe I'm rambling",
+    "Think of your homeland. Ice and flame. Not ice despite flame or flame despite ice. There's no midnight sun without dark winters. These things don't detract from each other. They need each other. Like us. If we didn't have dark sides we probably wouldn't love each other so much. You know? Maybe I'm rambling",
 
     "I don't think I'll ever rest easy until I feel your arms around me.",
 
-    "I should have been there for you all these years. I'm sorry that I wasn't."
+    "I should have been there for you all these years. I'm sorry that I wasn't. The thought of you alone, hurt and mistreated. it breaks my heart"
 ];
 
 
