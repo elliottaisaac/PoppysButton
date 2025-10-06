@@ -16,7 +16,7 @@ let messages = [
 
     `<button class="btn btn-pulse"><a href='https://www.youtube.com/watch?v=hq0rZ3IiyWw' target="_blank" style="font-size:500%";>&#9835; </a></button><br><sup>(3)</sup>`,
 
-     `<button class="btn btn-pulse"><a href='https://www.youtube.com/watch?v=6ydpSVvXE9k' target="_blank" style="font-size:500%";>&#9835; </a></button><br><sup>(5)</sup>`,
+    `<button class="btn btn-pulse"><a href='https://www.youtube.com/watch?v=6ydpSVvXE9k' target="_blank" style="font-size:500%";>&#9835; </a></button><br><sup>(5)</sup>`,
 
     `<button class="btn btn-pulse"><a href='https://www.youtube.com/watch?v=o3hHsVtqNFQ' target="_blank" style="font-size:500%";>&#9835; </a></button><br><sup>(1)</sup>`,
 
@@ -48,7 +48,7 @@ let messages = [
 
     '<span style="font-size:200%">&#128065; &#x1F474;&#x1F3FC; &infin; &#x1F334; &#x1FAF5; &#x1F590;</span>',
 
-    "How many people know how it feels to listen to a song someone wrote for them, specifically? Like, a really heartfelt song. Like the ones you've written for me. Probably not many... I'm lucky then because the only way I can think of to describe that feeling is that I imagine it's the closest an adult can get to being sung a lullabye.",
+    "How many people know how it feels to listen to a song someone wrote for them, specifically? Like, a really heartfelt song. Like the ones you've written for me. Probably not many... I'm lucky then because the only way I can think of to describe that feeling is that I imagine it's the closest an adult can get to being sung a lullaby.",
 
     "I'd like to write you a song one day. But you'll have to sing it to yourself. Sorry.",
 
@@ -68,7 +68,13 @@ let messages = [
 
     "I want to kiss you so badly",
 
-    '<video autoplay><source src="hug.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video>'
+    '<video autoplay><source src="hug.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video>',
+
+    "Sometimes I wonder if there's parts of yorself that you're afraid to show me. You shouldn't be though. Think of your homeland. Ice and flame. Not ice despite flame or flame despite ice. There's no midnight sun without dark winters. These things don't detract from each other. They need each other. Like us. You know? Maybe I'm rambling",
+
+    "I don't think I'll ever rest easy until I feel your arms around me.",
+
+    "I wish we talked more."
 ];
 
 
@@ -82,5 +88,7 @@ let names = [
     "dear",
     "beautiful",
     "darling",
-    "love",
+    "Poppsi Max",
+    "angel",
+    "love"
 ]
