@@ -54,7 +54,7 @@ let messages = [
 
     "I chose this font because its name is <a href='https://fonts.google.com/specimen/Poppins?preview.text=I%20love%20you' target='_blank'>Poppins</a>.",
 
-    "Why me?<br><br>Why rescue me where others drowned?",
+  
 
     '<div class="neonCont"><h1 class="neonText">Neon letters</h1></div>',
 
