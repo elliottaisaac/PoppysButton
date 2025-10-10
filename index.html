@@ -41,15 +41,15 @@
             msg = messages[0];
             messages.shift();
             first = false;
-            const timeout = setTimeout(PressMeAgain, 1000);
+            const timeout = setTimeout(PressMeAgain, 500);
         }
         else{
             if(messages.length < 1) location.reload();
             else{
                 const rand = Math.floor(Math.random() * messages.length);
-                const timeout2 = setTimeout(PressMeRandom, 1000);
                 msg = messages[rand];
                 messages.splice(rand, 1);
+                const timeout2 = setTimeout(PressMeRandom, 500);
             }
         }
         box.innerHTML = msg;
