@@ -87,5 +87,6 @@ let names = [
     "beautiful",
     "darling",
     "angel",
-    "love"
+    "love",
+    "elskan"
 ]
