@@ -56,7 +56,7 @@ let messages = [
 
     "Why me?<br><br>Why rescue me where others drowned?",
 
-    '<div class="neonCont"><h1 class="neonText">Neon letters</h1></div>',
+    '<div class="neonCont"><h1 class="neonText">Neon letters<br>in the dark</h1></div>',
 
     "Sometimes your music makes me weepy. Like everything I've held in just starts leaking out.",
 
