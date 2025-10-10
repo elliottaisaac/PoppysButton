@@ -57,10 +57,6 @@
         box.innerHTML = msg;
     });
 
-    function CheckMsg(n){
-        document.getElementById('message-box').innerHTML = messages[n];
-    }
-
     function PressMeAgain(){
         document.getElementById('btn-txt').innerHTML += ", again";
     }
@@ -68,6 +64,10 @@
     function PressMeBlank(){
         let rand = Math.floor(Math.random() * names.length);
         document.getElementById('btn-txt').innerHTML = `Press me, ${names[rand]}`;
+    }
+
+    function CheckMsg(n){
+        document.getElementById('message-box').innerHTML = messages[n];
     }
   </script>
 </html>
