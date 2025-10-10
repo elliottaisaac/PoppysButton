@@ -89,4 +89,4 @@ let names = [
     "angel",
     "love",
     "elskan"
-]
+];
