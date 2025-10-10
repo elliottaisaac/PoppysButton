@@ -35,7 +35,7 @@
   <script>
     let first = true;
     document.querySelector('button').addEventListener("click", () => {
-        let box = document.getElementById('message-box');
+        const box = document.getElementById('message-box');
         let msg;
         if(first == true){
             msg = messages[0];
@@ -46,7 +46,7 @@
         else{
             if(messages.length < 1) location.reload();
             else{
-                let rand = Math.floor(Math.random() * messages.length);
+                const rand = Math.floor(Math.random() * messages.length);
                 const timeout2 = setTimeout(PressMeRandom, 1000);
                 msg = messages[rand];
                 messages.splice(rand, 1);
