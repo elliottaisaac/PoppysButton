@@ -47,7 +47,7 @@
             if(messages.length < 1) location.reload();
             else{
                 let rand = Math.floor(Math.random() * messages.length);
-                const timeout2 = setTimeout(PressMeBlank, 1000);
+                const timeout2 = setTimeout(PressMeRandom, 1000);
                 msg = messages[rand];
                 messages.splice(rand, 1);
                 // console.log(rand);
@@ -61,7 +61,7 @@
         document.getElementById('btn-txt').innerHTML += ", again";
     }
 
-    function PressMeBlank(){
+    function PressMeRandom(){
         let rand = Math.floor(Math.random() * names.length);
         document.getElementById('btn-txt').innerHTML = `Press me, ${names[rand]}`;
     }
