@@ -35,7 +35,6 @@
   <script>
     let first = true;
     document.querySelector('button').addEventListener("click", () => {
-        const box = document.getElementById('message-box');
         let msg;
         if(first == true){
             msg = messages[0];
@@ -52,7 +51,7 @@
                 const timeout2 = setTimeout(PressMeRandom, 500);
             }
         }
-        box.innerHTML = msg;
+        document.getElementById('message-box').innerHTML = msg;
     });
 
     function PressMeAgain(){
